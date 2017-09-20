@@ -1,0 +1,189 @@
+"C:\Users\Avni Hardik Mehta.DESKTOP-RM37FMH\AppData\Local\Programs\Python\Python35\python.exe" C:/Users/AvniMehta/PycharmProjects/LabAssignment2/Task3.py
+
+-----------------------------
+Welcome to Southwest Airlines
+-----------------------------
+
+Press 1 : Employee Details
+Press 2 : Passenger Details
+Press 3 : Flight Details
+Press 4 : Booking Details
+Press 5 : Exit
+
+Enter your choice : 1
+
+Employee Details
+-------------------------------
+Employee No: 1
+Name : Xi Wa
+Phone : 999-222-1110
+Postal Code : 55555
+Department : Air
+Salary : 120000
+-------------------------------
+-------------------------------
+Employee No: 2
+Name : Vi Da
+Phone : 918-345-3456
+Postal Code : 10021
+Department : Ground
+Salary : 50000
+-------------------------------
+
+Total no of employees : 2
+
+-----------------------------
+Welcome to Southwest Airlines
+-----------------------------
+
+Press 1 : Employee Details
+Press 2 : Passenger Details
+Press 3 : Flight Details
+Press 4 : Booking Details
+Press 5 : Exit
+
+Enter your choice : 2
+
+Passenger Details
+-------------------------------
+Rewards No: 1
+Name : Avni Mehta
+Phone : 919-919-9191
+Address : Overland Park KS
+Postal Code : 66209
+Credit Card : 12345678901234
+-------------------------------
+-------------------------------
+Rewards No: 2
+Name : Hardik Mehta
+Phone : 919-000-9999
+Address : Kansas City MO
+Postal Code : 64001
+Credit Card : 43567823453445
+-------------------------------
+-------------------------------
+Rewards No: 3
+Name : XYZ Mehta
+Phone : 816-000-9999
+Address : Kansas City KS
+Postal Code : 66209
+Credit Card : 34566782345344
+-------------------------------
+
+Total no of passengers : 3
+
+-----------------------------
+Welcome to Southwest Airlines
+-----------------------------
+
+Press 1 : Employee Details
+Press 2 : Passenger Details
+Press 3 : Flight Details
+Press 4 : Booking Details
+Press 5 : Exit
+
+Enter your choice : 3
+
+Flight Details
+-------------------------------
+Flight No: 1
+Route : KCI-LAX
+Departs on 10/01/2017 at 6:53pm , arrives on 10/01/2017 at 8:50pm
+Cost : 140
+-------------------------------
+-------------------------------
+Flight No: 2
+Route : KCI-LAX
+Departs on 10/02/2017 at 4:30pm , arrives on 10/02/2017 at 8:50pm
+Cost : 180
+-------------------------------
+-------------------------------
+Flight No: 3
+Route : KCI-LAX
+Departs on 10/02/2017 at 7:30pm , arrives on 10/03/2017 at 1:20pm
+Cost : 240
+-------------------------------
+-------------------------------
+Flight No: 4
+Route : LAX-KCI
+Departs on 10/11/2017 at 5:20pm , arrives on 10/11/2017 at 9:50pm
+Cost : 145
+-------------------------------
+-------------------------------
+Flight No: 5
+Route : LAX-KCI
+Departs on 10/12/2017 at 3:30pm , arrives on 10/12/2017 at 11:50pm
+Cost : 185
+-------------------------------
+-------------------------------
+Flight No: 6
+Route : LAX-KCI
+Departs on 10/12/2017 at 4:30pm , arrives on 10/13/2017 at 1:20pm
+Cost : 245
+-------------------------------
+
+-----------------------------
+Welcome to Southwest Airlines
+-----------------------------
+
+Press 1 : Employee Details
+Press 2 : Passenger Details
+Press 3 : Flight Details
+Press 4 : Booking Details
+Press 5 : Exit
+
+Enter your choice : 4
+
+Booking Details
+-------------------------------
+Passenger Name : Avni Mehta
+Booking Reference No : B1
+Booking Date : 9/16/2017
+Flight No: 7
+Route : KCI-LAX
+Departs on 10/01/2017 at 6:53pm , arrives on 10/01/2017 at 8:50pm
+Cost : 140
+-------------------------------
+-------------------------------
+Passenger Name : Hardik Mehta
+Booking Reference No : B2
+Booking Date : 9/16/2017
+Flight No: 8
+Route : KCI-LAX
+Departs on 10/01/2017 at 6:53pm , arrives on 10/01/2017 at 8:50pm
+Cost : 140
+-------------------------------
+-------------------------------
+Passenger Name : Avni Mehta
+Booking Reference No : B3
+Booking Date : 9/16/2017
+Flight No: 9
+Route : LAX-KCI
+Departs on 10/11/2017 at 5:20pm , arrives on 10/11/2017 at 9:50pm
+Cost : 145
+-------------------------------
+-------------------------------
+Passenger Name : Hardik Mehta
+Booking Reference No : B4
+Booking Date : 9/16/2017
+Flight No: 10
+Route : LAX-KCI
+Departs on 10/11/2017 at 5:20pm , arrives on 10/11/2017 at 9:50pm
+Cost : 145
+-------------------------------
+
+-----------------------------
+Welcome to Southwest Airlines
+-----------------------------
+
+Press 1 : Employee Details
+Press 2 : Passenger Details
+Press 3 : Flight Details
+Press 4 : Booking Details
+Press 5 : Exit
+
+Enter your choice : 5
+
+Thank you for visiting Southwest Airlines. Good bye.
+
+Process finished with exit code 0
