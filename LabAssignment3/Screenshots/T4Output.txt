@@ -1,0 +1,178 @@
+C:\Python27\python.exe C:/Users/AvniMehta/PycharmProjects/LabAssignment3/Lab3Task4.py
+
+1. Reading the file..
+---------------------
+
+Python is a widely used high level programming language for general purpose programming. Features dynamic type system with automatic memory management. Python supports multiple
+programming paradigms. Includes object-oriented, imperative, functional programs, procedural styles. It has a large and comprehensive standard library. At UMKC, this falls under
+course number CS5590. You should have understanding of Computer Programming terminologies. Basic knowledge of any language is good. Code developed by Avni Mehta.
+
+
+2. Applying Lemmatization..
+---------------------------
+
+ Word = python              |  Lemmatization = python              
+ Word = is                  |  Lemmatization = is                  
+ Word = a                   |  Lemmatization = a                   
+ Word = widely              |  Lemmatization = widely              
+ Word = used                |  Lemmatization = used                
+ Word = high                |  Lemmatization = high                
+ Word = level               |  Lemmatization = level               
+ Word = programming         |  Lemmatization = programming         
+ Word = language            |  Lemmatization = language            
+ Word = for                 |  Lemmatization = for                 
+ Word = general             |  Lemmatization = general             
+ Word = purpose             |  Lemmatization = purpose             
+ Word = programming.        |  Lemmatization = programming.        
+ Word = features            |  Lemmatization = feature             
+ Word = dynamic             |  Lemmatization = dynamic             
+ Word = type                |  Lemmatization = type                
+ Word = system              |  Lemmatization = system              
+ Word = with                |  Lemmatization = with                
+ Word = automatic           |  Lemmatization = automatic           
+ Word = memory              |  Lemmatization = memory              
+ Word = management.         |  Lemmatization = management.         
+ Word = python              |  Lemmatization = python              
+ Word = supports            |  Lemmatization = support             
+ Word = multiple            |  Lemmatization = multiple            
+ Word = programming         |  Lemmatization = programming         
+ Word = paradigms.          |  Lemmatization = paradigms.          
+ Word = includes            |  Lemmatization = includes            
+ Word = object-oriented,    |  Lemmatization = object-oriented,    
+ Word = imperative,         |  Lemmatization = imperative,         
+ Word = functional          |  Lemmatization = functional          
+ Word = programs,           |  Lemmatization = programs,           
+ Word = procedural          |  Lemmatization = procedural          
+ Word = styles.             |  Lemmatization = styles.             
+ Word = it                  |  Lemmatization = it                  
+ Word = has                 |  Lemmatization = ha                  
+ Word = a                   |  Lemmatization = a                   
+ Word = large               |  Lemmatization = large               
+ Word = and                 |  Lemmatization = and                 
+ Word = comprehensive       |  Lemmatization = comprehensive       
+ Word = standard            |  Lemmatization = standard            
+ Word = library.            |  Lemmatization = library.            
+ Word = at                  |  Lemmatization = at                  
+ Word = umkc,               |  Lemmatization = umkc,               
+ Word = this                |  Lemmatization = this                
+ Word = falls               |  Lemmatization = fall                
+ Word = under               |  Lemmatization = under               
+ Word = course              |  Lemmatization = course              
+ Word = number              |  Lemmatization = number              
+ Word = cs5590.             |  Lemmatization = cs5590.             
+ Word = you                 |  Lemmatization = you                 
+ Word = should              |  Lemmatization = should              
+ Word = have                |  Lemmatization = have                
+ Word = understanding       |  Lemmatization = understanding       
+ Word = of                  |  Lemmatization = of                  
+ Word = computer            |  Lemmatization = computer            
+ Word = programming         |  Lemmatization = programming         
+ Word = terminologies.      |  Lemmatization = terminologies.      
+ Word = basic               |  Lemmatization = basic               
+ Word = knowledge           |  Lemmatization = knowledge           
+ Word = of                  |  Lemmatization = of                  
+ Word = any                 |  Lemmatization = any                 
+ Word = language            |  Lemmatization = language            
+ Word = is                  |  Lemmatization = is                  
+ Word = good.               |  Lemmatization = good.               
+ Word = code                |  Lemmatization = code                
+ Word = developed           |  Lemmatization = developed           
+ Word = by                  |  Lemmatization = by                  
+ Word = avni                |  Lemmatization = avni                
+ Word = mehta.              |  Lemmatization = mehta.              
+
+
+3. Using POS, removing verbs..
+-----------------------------
+
+POS on the input file:
+[('python', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('widely', 'RB'), ('used', 'VBN'), ('high', 'JJ'), ('level', 'NN'), ('programming', 'NN'), ('language', 'NN'), ('for', 'IN'),
+('general', 'JJ'), ('purpose', 'NN'), ('programming', 'NN'), ('.', '.'), ('features', 'NNS'), ('dynamic', 'JJ'), ('type', 'JJ'), ('system', 'NN'), ('with', 'IN'), ('automatic',
+'JJ'), ('memory', 'NN'), ('management', 'NN'), ('.', '.'), ('python', 'NN'), ('supports', 'VBZ'), ('multiple', 'JJ'), ('programming', 'VBG'), ('paradigms', 'NN'), ('.', '.'),
+('includes', 'VBZ'), ('object-oriented', 'JJ'), (',', ','), ('imperative', 'JJ'), (',', ','), ('functional', 'JJ'), ('programs', 'NNS'), (',', ','), ('procedural', 'JJ'),
+('styles', 'NNS'), ('.', '.'), ('it', 'PRP'), ('has', 'VBZ'), ('a', 'DT'), ('large', 'JJ'), ('and', 'CC'), ('comprehensive', 'JJ'), ('standard', 'NN'), ('library', 'NN'), ('.',
+'.'), ('at', 'IN'), ('umkc', 'JJ'), (',', ','), ('this', 'DT'), ('falls', 'VBZ'), ('under', 'IN'), ('course', 'NN'), ('number', 'NN'), ('cs5590', 'NN'), ('.', '.'), ('you', 'PRP'),
+('should', 'MD'), ('have', 'VB'), ('understanding', 'NN'), ('of', 'IN'), ('computer', 'NN'), ('programming', 'VBG'), ('terminologies', 'NNS'), ('.', '.'), ('basic', 'JJ'),
+('knowledge', 'NN'), ('of', 'IN'), ('any', 'DT'), ('language', 'NN'), ('is', 'VBZ'), ('good', 'JJ'), ('.', '.'), ('code', 'NN'), ('developed', 'VBN'), ('by', 'IN'), ('avni', 'JJ'),
+('mehta', 'NN'), ('.', '.')]
+
+Non verbs :
+python, a, widely, high, level, programming, language, for, general, purpose, programming, features, dynamic, type, system, with, automatic, memory, management, python, multiple,
+paradigms, object-oriented, imperative, functional, programs, procedural, styles, it, a, large, and, comprehensive, standard, library, at, umkc, this, under, course, number,
+cs5590, you, should, understanding, of, computer, terminologies, basic, knowledge, of, any, language, good, code, by, avni, mehta
+
+Verbs :
+is, used, supports, programming, includes, has, falls, have, programming, is, developed
+
+
+4. Word frequency of non-verbs..
+--------------------------------
+
+ Word = python              |  Count = 2                   
+ Word = a                   |  Count = 2                   
+ Word = language            |  Count = 2                   
+ Word = programming         |  Count = 2                   
+ Word = of                  |  Count = 2                   
+ Word = and                 |  Count = 1                   
+ Word = code                |  Count = 1                   
+ Word = features            |  Count = 1                   
+ Word = understanding       |  Count = 1                   
+ Word = dynamic             |  Count = 1                   
+ Word = functional          |  Count = 1                   
+ Word = library             |  Count = 1                   
+ Word = general             |  Count = 1                   
+ Word = high                |  Count = 1                   
+ Word = course              |  Count = 1                   
+ Word = computer            |  Count = 1                   
+ Word = at                  |  Count = 1                   
+ Word = any                 |  Count = 1                   
+ Word = avni                |  Count = 1                   
+ Word = basic               |  Count = 1                   
+ Word = management          |  Count = 1                   
+ Word = number              |  Count = 1                   
+ Word = knowledge           |  Count = 1                   
+ Word = for                 |  Count = 1                   
+ Word = system              |  Count = 1                   
+ Word = should              |  Count = 1                   
+ Word = imperative          |  Count = 1                   
+ Word = widely              |  Count = 1                   
+ Word = memory              |  Count = 1                   
+ Word = you                 |  Count = 1                   
+ Word = type                |  Count = 1                   
+ Word = mehta               |  Count = 1                   
+ Word = styles              |  Count = 1                   
+ Word = terminologies       |  Count = 1                   
+ Word = good                |  Count = 1                   
+ Word = multiple            |  Count = 1                   
+ Word = comprehensive       |  Count = 1                   
+ Word = under               |  Count = 1                   
+ Word = it                  |  Count = 1                   
+ Word = purpose             |  Count = 1                   
+ Word = standard            |  Count = 1                   
+ Word = with                |  Count = 1                   
+ Word = by                  |  Count = 1                   
+ Word = umkc                |  Count = 1                   
+ Word = paradigms           |  Count = 1                   
+ Word = level               |  Count = 1                   
+ Word = this                |  Count = 1                   
+ Word = cs5590              |  Count = 1                   
+ Word = programs            |  Count = 1                   
+ Word = large               |  Count = 1                   
+ Word = object-oriented     |  Count = 1                   
+ Word = automatic           |  Count = 1                   
+ Word = procedural          |  Count = 1                   
+
+
+5. Most common 5 words..
+------------------------
+
+python, a, language, programming, of
+
+
+6. Summarizing the file (sentences with most common words)
+----------------------------------------------------------
+
+python is a widely used high level programming language for general purpose programming. python supports multiple programming paradigms. it has a large and comprehensive standard
+library. you should have understanding of computer programming terminologies. basic knowledge of any language is good.
+
+Process finished with exit code 0
